@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1033" height="110" viewBox="0 0 1033 110">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 150px;
+        fill: #fff;
+        font-family: Arial;
+      }
+
+      .cls-2 {
+        fill: #f13024;
+      }
+    </style>
+  </defs>
+  <text id="nicolas." class="cls-1" x="-11" y="107.53">nicolas<tspan class="cls-2">.</tspan></text>
+</svg>
