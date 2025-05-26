@@ -3,5 +3,6 @@ module.exports = {
     locales: ['es', 'en'],
     defaultLocale: 'es',
     localeDetection: true,
+    ns: ['about', 'common', 'contact', 'proyects', 'testimonials'],
   },
 };

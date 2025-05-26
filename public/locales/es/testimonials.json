@@ -1,4 +1,21 @@
 {
+  "testimonials": [
+    {
+      "name": "Martín Rivas",
+      "position": "Full Stack Developer en SmartCommerce",
+      "message": "Nicolás tiene un enfoque súper claro hacia la calidad del código y la arquitectura. En SmartCommerce lideró el backend con NestJS y nos impresionó con su manejo de eventos a gran escala y su integración impecable con APIs externas como Tiendanube. Siempre dispuesto a explicar, documentar y mejorar el flujo del equipo."
+    },
+    {
+      "name": "Sofía Ramírez",
+      "position": "Tech Lead en No Country",
+      "message": "Trabajar con Nicolás fue una experiencia excelente. Desde el primer día mostró una gran autonomía para liderar módulos críticos como el de transacciones y billetera. Su implementación con BullMQ mejoró significativamente el rendimiento del sistema, y gracias a su iniciativa en la planificación de sprints, logramos aumentar un 15% la eficiencia del equipo. Su selección como ‘Desarrollador de Mejor Rendimiento’ fue más que merecida."
+    },
+    {
+      "name": "Lucía Fernández",
+      "position": "Developer Junior en OpenTasks",
+      "message": "Tuve la suerte de ser mentoreado por Nico durante el desarrollo de OpenTasks. Aprendí muchísimo sobre buenas prácticas, testing, y cómo pensar los proyectos desde la arquitectura. Su feedback fue siempre claro y constructivo. Sin dudas, alguien que eleva el nivel de cualquier equipo."
+    }
+  ],
   "textPart1": "Que dicen",
   "textPart2": "sobre mi."
 }

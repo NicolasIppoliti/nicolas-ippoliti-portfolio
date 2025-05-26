@@ -5,5 +5,7 @@
   "email": "Email",
   "name": "Name",
   "message": "Message",
-  "subject": "Subject"
+  "subject": "Subject",
+  "toastSuccess": "Message sent successfully",
+  "toastError": "There was an error sending the message"
 }

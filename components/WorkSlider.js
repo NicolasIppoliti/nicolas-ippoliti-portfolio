@@ -21,12 +21,12 @@ const workSlides = {
     {
       images: [
         {
-          title: 'title',
+          title: 'Comercios Argentinos',
           path: '/thumb1.png',
           url: 'https://comerciosargentinos.com.ar/'
         },
         {
-          title: 'title',
+          title: 'MiCampus',
           path: '/thumb2.jpg',
           url: 'https://comerciosargentinos.com.ar/'
         },
@@ -36,7 +36,7 @@ const workSlides = {
           url: 'https://comerciosargentinos.com.ar/'
         },
         {
-          title: 'title',
+          title: 'Agencia Digital',
           path: '/thumb4.png',
           url: 'https://nicolasippoliti.github.io/agencia-digital/'
         },
@@ -85,12 +85,12 @@ const WorkSlider = () => {
             <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
               {slide.images.map((image, index) => {
                 return (
-                  <div key={index} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
+                  <div key={index} className="relative flex items-center justify-center overflow-hidden rounded-lg group">
                     {/* link */}
                     {image.url && (
-                      <a href={image.url} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-10"></a>
+                      <a href={image.url} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-10" aria-label={image.title}></a>
                     )}
-                    <div className="flex items-center justify-center relative overflow-hidden group">
+                    <div className="relative flex items-center justify-center overflow-hidden group">
                       {/* image */}
                       <Image
                         src={image.path}
@@ -101,7 +101,7 @@ const WorkSlider = () => {
                       {/* overlay */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       {/* title */}
-                      <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
+                      <div className="absolute bottom-0 transition-all duration-300 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
                           {/* title part 1 */}
                           <div className="delay-100">LIVE</div>

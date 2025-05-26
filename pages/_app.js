@@ -13,6 +13,9 @@ import { useRouter } from 'next/router';
 // Framer motion
 import { AnimatePresence, motion } from 'framer-motion';
 
+// Toaster
+import { Toaster } from 'react-hot-toast';
+
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
@@ -20,6 +23,7 @@ function MyApp({ Component, pageProps }) {
       <AnimatePresence mode='wait'>
         <motion.div key={router.route} className='h-full'>
           <Transition/>
+          <Toaster position="top-right" reverseOrder={false} />
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
