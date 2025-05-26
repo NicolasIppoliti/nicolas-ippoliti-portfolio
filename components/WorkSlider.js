@@ -23,17 +23,17 @@ const workSlides = {
         {
           title: 'Comercios Argentinos',
           path: '/thumb1.png',
-          url: 'https://comerciosargentinos.com.ar/'
+          url: 'https://comerciosargentinos.netlify.app/'
         },
         {
           title: 'MiCampus',
           path: '/thumb2.jpg',
-          url: 'https://comerciosargentinos.com.ar/'
+          url: ''
         },
         {
-          title: 'title',
-          path: '/thumb3.jpg',
-          url: 'https://comerciosargentinos.com.ar/'
+          title: 'Skin Sniper',
+          path: '/thumb3.png',
+          url: 'https://www.skinsniper.com/'
         },
         {
           title: 'Agencia Digital',
